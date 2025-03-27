@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b94a0c2580f549b0b44fe3983e254703 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b94a0c2580f549b0b44fe3983e254703" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b94a0c2580f549b0b44fe3983e254703 = L.map(
+                "map_b94a0c2580f549b0b44fe3983e254703",
+                {
+                    center: [-15.8267, -47.9218],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9bb74ddfe07cb5dc6d74f39521ef57f8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9bb74ddfe07cb5dc6d74f39521ef57f8.addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var marker_6c659d1100247cbcacba4d7e67123405 = L.marker(
+                [-22.861727382906317, -43.285570486993606],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_c100bf986dc5405d19db071524fa6c68 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6c659d1100247cbcacba4d7e67123405.setIcon(icon_c100bf986dc5405d19db071524fa6c68);
+        
+    
+        var popup_fd6dafb416029b7ed440f96419d58bfe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2da1aad8f071a5fd21a723d5298425a7 = $(`<div id="html_2da1aad8f071a5fd21a723d5298425a7" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> FELIPE MARTINS BIOND<br><b>ENDERECO:</b> R CANITAR, 655                                              <br><b>CNPJ:</b> 7941012000160<br><b>UF:</b> RJ<br><b>Origem:</b> VAL<br><b>VALOR:</b> 0.0<br></div>`)[0];
+                popup_fd6dafb416029b7ed440f96419d58bfe.setContent(html_2da1aad8f071a5fd21a723d5298425a7);
+            
+        
+
+        marker_6c659d1100247cbcacba4d7e67123405.bindPopup(popup_fd6dafb416029b7ed440f96419d58bfe)
+        ;
+
+        
+    
+    
+            marker_6c659d1100247cbcacba4d7e67123405.bindTooltip(
+                `<div>
+                     FELIPE MARTINS BIOND
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8771cece238c324ef68b59541657c32a = L.marker(
+                [-21.3595365, -41.9389905],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_b58e35dd02095a4138604abb22e884f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8771cece238c324ef68b59541657c32a.setIcon(icon_b58e35dd02095a4138604abb22e884f8);
+        
+    
+        var popup_39e5209b1c5d20977d611beb05f9f0db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_01f0348751224df610a03b2c888a9fcf = $(`<div id="html_01f0348751224df610a03b2c888a9fcf" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> MAIA E MAIA MOTO B  <br><b>ENDERECO:</b> AV JOAO ORNALDO RODRIGUES, 152 - LOJA 02                    <br><b>CNPJ:</b> 11994149000150<br><b>UF:</b> RJ<br><b>Origem:</b> IMP<br><b>VALOR:</b> 0.0<br></div>`)[0];
+                popup_39e5209b1c5d20977d611beb05f9f0db.setContent(html_01f0348751224df610a03b2c888a9fcf);
+            
+        
+
+        marker_8771cece238c324ef68b59541657c32a.bindPopup(popup_39e5209b1c5d20977d611beb05f9f0db)
+        ;
+
+        
+    
+    
+            marker_8771cece238c324ef68b59541657c32a.bindTooltip(
+                `<div>
+                     MAIA E MAIA MOTO B  
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ab9b24a9a8f3a3d21b235707c57f1f06 = L.marker(
+                [-25.8566167, -52.5294107],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_c6b85ead339f571cc7b045370e710cdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ab9b24a9a8f3a3d21b235707c57f1f06.setIcon(icon_c6b85ead339f571cc7b045370e710cdf);
+        
+    
+        var popup_bd1b325180a6b67ac972502def70f1d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed3ba60c8f6de7a66f62ef359c40ef29 = $(`<div id="html_ed3ba60c8f6de7a66f62ef359c40ef29" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> CONFIANCA BIKE E SPO<br><b>ENDERECO:</b> R 14 DE DEZEMBRO, 4068                                      <br><b>CNPJ:</b> 4857145000164<br><b>UF:</b> PR<br><b>Origem:</b> IMP<br><b>VALOR:</b> 0.0<br></div>`)[0];
+                popup_bd1b325180a6b67ac972502def70f1d9.setContent(html_ed3ba60c8f6de7a66f62ef359c40ef29);
+            
+        
+
+        marker_ab9b24a9a8f3a3d21b235707c57f1f06.bindPopup(popup_bd1b325180a6b67ac972502def70f1d9)
+        ;
+
+        
+    
+    
+            marker_ab9b24a9a8f3a3d21b235707c57f1f06.bindTooltip(
+                `<div>
+                     CONFIANCA BIKE E SPO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_cd032d3205182c6151e83809ce44fb59 = L.marker(
+                [-10.6671448, -39.498199],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_21c885294db8aced8470b7408ec63e74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_cd032d3205182c6151e83809ce44fb59.setIcon(icon_21c885294db8aced8470b7408ec63e74);
+        
+    
+        var popup_a8553086ef0d7e818ecf492448a2cfaf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e401c0a998aab9190f01fd41453c7481 = $(`<div id="html_e401c0a998aab9190f01fd41453c7481" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> POINT DO CICLISMO   <br><b>ENDERECO:</b> AV MONTE SANTO, 460-B                                       <br><b>CNPJ:</b> 36862331000188<br><b>UF:</b> BA<br><b>Origem:</b> MP<br><b>VALOR:</b> 0.0<br></div>`)[0];
+                popup_a8553086ef0d7e818ecf492448a2cfaf.setContent(html_e401c0a998aab9190f01fd41453c7481);
+            
+        
+
+        marker_cd032d3205182c6151e83809ce44fb59.bindPopup(popup_a8553086ef0d7e818ecf492448a2cfaf)
+        ;
+
+        
+    
+    
+            marker_cd032d3205182c6151e83809ce44fb59.bindTooltip(
+                `<div>
+                     POINT DO CICLISMO   
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5f86393109387ea8bfe4fbd8b24eb54c = L.marker(
+                [-14.365907, -40.2063056],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_882b930e2ab38eca048b951c2262b62e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5f86393109387ea8bfe4fbd8b24eb54c.setIcon(icon_882b930e2ab38eca048b951c2262b62e);
+        
+    
+        var popup_874f40fb59b471c66cf98262f0bd25fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ffce78c7acc87dc73efca325bc7d77a1 = $(`<div id="html_ffce78c7acc87dc73efca325bc7d77a1" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> MESSIAS MANOEL MOREI<br><b>ENDERECO:</b> PC PRACA DA BANDEIRA,08                                     <br><b>CNPJ:</b> 13558187000195<br><b>UF:</b> BA<br><b>Origem:</b> VAL<br><b>VALOR:</b> 0.0<br></div>`)[0];
+                popup_874f40fb59b471c66cf98262f0bd25fa.setContent(html_ffce78c7acc87dc73efca325bc7d77a1);
+            
+        
+
+        marker_5f86393109387ea8bfe4fbd8b24eb54c.bindPopup(popup_874f40fb59b471c66cf98262f0bd25fa)
+        ;
+
+        
+    
+    
+            marker_5f86393109387ea8bfe4fbd8b24eb54c.bindTooltip(
+                `<div>
+                     MESSIAS MANOEL MOREI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5c4c34c6728831e9fea5b5f0ac824063 = L.marker(
+                [-17.0796171, -40.367353181249996],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_d7b3bf17e446222f276b20f08601246e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5c4c34c6728831e9fea5b5f0ac824063.setIcon(icon_d7b3bf17e446222f276b20f08601246e);
+        
+    
+        var popup_eaacfbc58541af1df36dfef20f521378 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_96144b9e06f26eefa808970c04b30c05 = $(`<div id="html_96144b9e06f26eefa808970c04b30c05" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> TRILHA MOTOS        <br><b>ENDERECO:</b> R NOVA VENECIA 8                                            <br><b>CNPJ:</b> 10771116000188<br><b>UF:</b> BA<br><b>Origem:</b> MP<br><b>VALOR:</b> 0.0<br></div>`)[0];
+                popup_eaacfbc58541af1df36dfef20f521378.setContent(html_96144b9e06f26eefa808970c04b30c05);
+            
+        
+
+        marker_5c4c34c6728831e9fea5b5f0ac824063.bindPopup(popup_eaacfbc58541af1df36dfef20f521378)
+        ;
+
+        
+    
+    
+            marker_5c4c34c6728831e9fea5b5f0ac824063.bindTooltip(
+                `<div>
+                     TRILHA MOTOS        
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_247d04af39e0b9ed821479105254d01a = L.marker(
+                [-22.8653563183443, -43.476834391975224],
+                {
+}
+            ).addTo(map_b94a0c2580f549b0b44fe3983e254703);
+        
+    
+            var icon_11f5e726993ef869db07d2cf8fdf156d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_247d04af39e0b9ed821479105254d01a.setIcon(icon_11f5e726993ef869db07d2cf8fdf156d);
+        
+    
+        var popup_12802bee2b12fe82703910d5355e1110 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a9502990b142ab073c3c87b927a6246 = $(`<div id="html_5a9502990b142ab073c3c87b927a6246" style="width: 100.0%; height: 100.0%;"><b>CLIENTE:</b> MARI MOTOS          <br><b>ENDERECO:</b> EST DO TAQUARAL, 462                                        <br><b>CNPJ:</b> 46643642000100<br><b>UF:</b> RJ<br><b>Origem:</b> MP<br><b>VALOR:</b> 2894.4900000000002<br></div>`)[0];
+                popup_12802bee2b12fe82703910d5355e1110.setContent(html_5a9502990b142ab073c3c87b927a6246);
+            
+        
+
+        marker_247d04af39e0b9ed821479105254d01a.bindPopup(popup_12802bee2b12fe82703910d5355e1110)
+        ;
+
+        
+    
+    
+            marker_247d04af39e0b9ed821479105254d01a.bindTooltip(
+                `<div>
+                     MARI MOTOS          
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
